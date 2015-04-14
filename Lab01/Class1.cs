@@ -45,7 +45,7 @@ namespace Lab01
                 this.angle0X = 0;
                 return;
             }
-            this.angle0X=Math.Atan(c2/c1);
+            this.angle0X=Math.Atan(c2/c1)*(180.0/Math.PI);
         }
 
         public void print()
